@@ -46,7 +46,7 @@ def all():
     words = incoming_msg.split(' ')
     
     if "Hello" in incoming_msg:
-        reply = "Hi! Let's start. Tell me what currency you want to conver in the format:\n[from origin_currency to final_currency value value_here]\ncurrencies supported: SGD,MYR,EUR,USD,AUD,JPY,CNH,HKD,CAD,INR,DKK,GBP,RUB,NZD,MXN,IDR,TWD,THB,VND"
+        reply = "Hi! Let's start. Tell me what currency you want to convert in the format:\n[from origin_currency to final_currency value value_here]\ncurrencies supported: SGD,MYR,EUR,USD,AUD,JPY,CNH,HKD,CAD,INR,DKK,GBP,RUB,NZD,MXN,IDR,TWD,THB,VND"
         message.body(reply)
         print(type(reply))
         responded = True
